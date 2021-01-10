@@ -18,12 +18,11 @@ int main(){
 	int max = 93;
 	int len;
 	char x;
-	cout << "Types the lenght of password you want:";
+	cout << "Types the lenght of password you want: ";
 	cin >> len;
 	char answer;
 	cout << "Are Special Characters Allowed?[y/n]: ";
 	cin >> answer;
-	srand(time(0));
         cout << "Password: ";
 	if (answer == 'y'){
 		int max = 93;
